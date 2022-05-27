@@ -62,9 +62,9 @@
             <i class="bi bi-star-fill"></i>
           </div>
           <p class="text-start px-4 pt-4" style="font-size: 0.9rem">
-            재귀, 그래프탐색 등 기본 알고리즘 구현
+            정렬, 시물레이션, 그래프 탐색 등 기본 알고리즘 구현
             <br />
-            / 삼성 SW 역량테스트 IM 취득
+            <!-- / 삼성 SW 역량테스트 IM 취득 -->
           </p>
           <!-- <p>아아</p> -->
         </div>
