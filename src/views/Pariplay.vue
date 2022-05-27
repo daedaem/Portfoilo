@@ -66,11 +66,11 @@
           </div>
         </div>
         <div class="col-4">
-          <img
+          <!-- <img
             class="portfolio-detail-image"
             src="@/assets/pairplay/장소수정.gif"
             alt=""
-          />
+          /> -->
         </div>
       </div>
     </div>
