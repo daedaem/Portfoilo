@@ -55,9 +55,9 @@
       </div>
       <div class="col d-flex justify-content-center">
         <div class="image-box">
-          <!-- <img class="profile-image" src="@/assets/profileImage.jpg" alt="" /> -->
+          <img class="profile-image" src="@/assets/imoji1.png" alt="" />
           <!-- <img class="profile-image" src="@/assets/motorcycleAndMe.jpg" alt="" /> -->
-          <img class="profile-image" src="@/assets/profileImage.jpg" alt="" />
+          <!-- <img class="profile-image" src="@/assets/profileImage.jpg" alt="" /> -->
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@ a {
 
 .total-info-box {
   max-width: 1000px;
-  height: 94vh;
+  height: 90vh;
   margin: 0rem auto 0rem auto;
   display: flex;
   align-items: center;

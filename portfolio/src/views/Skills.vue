@@ -20,9 +20,9 @@
             <i class="bi bi-star-fill"></i>
           </div>
           <p class="text-start px-4 pt-4" style="font-size: 0.9rem">
-            계획된 와이어 프레임대로 웹 구현 /
+            계획된 와이어 프레임과 동일한 웹 구현 /
             <br />
-            플렉스, 그리드 및 반응형 설계 가능
+            반응형 설계 가능
           </p>
         </div>
         <div class="skill-box">

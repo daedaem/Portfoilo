@@ -12,17 +12,17 @@ const routes = [
     component: () => import("../views/About.vue"),
   },
   {
-    path: "/portfolio/pairplay",
+    path: "/pairplay",
     name: "Pairplay",
-    component: () => import("../views/Pariplay.vue"),
+    component: () => import("../views/Pairplay.vue"),
   },
   {
-    path: "/portfolio/unique",
+    path: "/unique",
     name: "Unique",
     component: () => import("../views/Unique.vue"),
   },
   {
-    path: "/portfolio/campus",
+    path: "/campus",
     name: "Campus",
     component: () => import("../views/Campus.vue"),
   },
