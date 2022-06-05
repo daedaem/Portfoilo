@@ -52,9 +52,13 @@
       </div>
       <div class="col d-flex justify-content-center">
         <div class="image-box">
-          <!-- <img class="profile-image" src="@/assets/profileImage.jpg" alt="" /> -->
-          <!-- <img class="profile-image" src="@/assets/motorcycleAndMe.jpg" alt="" /> -->
-          <img class="profile-image" src="@/assets/profileImage.jpg" alt="" />
+          <!-- <img class="profile-image" src="@/assets/profile/profileImage.jpg" alt="" /> -->
+          <!-- <img class="profile-image" src="@/assets/profile/motorcycleAndMe.jpg" alt="" /> -->
+          <img
+            class="profile-image"
+            src="@/assets/profile/profileImage.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>

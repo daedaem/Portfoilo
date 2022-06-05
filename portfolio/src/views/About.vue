@@ -2,20 +2,34 @@
   <div class="total-frame">
     <div class="total-info-box">
       <div class="image-box">
-        <!-- <img class="profile-image" src="@/assets/profileImage.jpg" alt="" /> -->
-        <!-- <img class="profile-image" src="@/assets/motorcycleAndMe.jpg" alt="" /> -->
-        <img class="profile-image" src="@/assets/profileImage.jpg" alt="" />
+        <!-- <img class="profile-image" src="@/assets/profile/profileImage.jpg" alt="" /> -->
+        <!-- <img class="profile-image" src="@/assets/profile/motorcycleAndMe.jpg" alt="" /> -->
+        <img
+          class="profile-image"
+          src="@/assets/profile/profileImage.jpg"
+          alt=""
+        />
       </div>
       <div class="info-box col-6">
         <!-- <h1 class="mb-4">Haesung Cho</h1> -->
         <!-- <h5 class="mb-2">Frontend Developer.</h5> -->
         <div class="introduction-content">
-          석사과정에서 IBM사의 AI 신약후보물질을 찾을 수 있는 '왓슨' 플랫폼
-          사용경험은 개발 직무에 대한 꿈을 갖게 해준 계기가 되었습니다.
+          <p class="fs-5 my-0">
+            <strong>
+              '프로그래밍은 인류가 직면한 문제를 해결 할 수 있다고
+              믿습니다.'</strong
+            >
+          </p>
           <br />
-          개발자는 인류가 직면한 문제를 해결 할 수 있다고 믿습니다.
-          <br />
-          결국 해내는 집념을 갖고 있는 프론트엔드 개발자 조해성입니다.
+          <p>
+            석사과정 중 IBM의 의료용 AI 플랫폼 '왓슨' 을 통한 70% 연구시간 감축
+            경험은 프로그래밍 힘을 깨닫게 된 계기가 되었습니다.
+          </p>
+          <p>
+            SSAFY(삼성청년소프트웨어아카데미)에서의 3번의 프로젝트 경험을 통해
+            이 믿음에 대한 확신을 갖게 되어 개발자의 길을 걷고 있습니다.
+          </p>
+          <!-- <p>결국 해내는 집념을 갖고 있는 프론트엔드 개발자 조해성입니다.</p> -->
         </div>
         <!-- <p>
         I believe developers are people who can solve the problems that humans
@@ -60,107 +74,17 @@
       </div>
       <div class="col d-flex justify-content-center"></div>
     </div>
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button
-            class="accordion-button"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseOne"
-            aria-expanded="true"
-            aria-controls="panelsStayOpen-collapseOne"
-          >
-            Accordion Item #1
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseOne"
-          class="accordion-collapse collapse show"
-          aria-labelledby="panelsStayOpen-headingOne"
-        >
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is
-            shown by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseTwo"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseTwo"
-          >
-            Accordion Item #2
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseTwo"
-          class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingTwo"
-        >
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseThree"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseThree"
-          >
-            Accordion Item #3
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseThree"
-          class="accordion-collapse collapse"
-          aria-labelledby="panelsStayOpen-headingThree"
-        >
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div>
+    <Introduce></Introduce>
     <ETC></ETC>
   </div>
 </template>
 <script>
 import { reactive } from "vue";
 import ETC from "./ETC.vue";
+import Introduce from "./Introduce.vue";
 export default {
   name: "About",
-  components: { ETC },
+  components: { ETC, Introduce },
   setup() {
     const links = reactive({
       facebook: "https://www.facebook.com/tanggae",

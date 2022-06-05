@@ -5,10 +5,12 @@
         <h1 class="mb-4">Haesung Cho</h1>
         <h5 class="mb-2">Frontend Developer.</h5>
         <div class="introduction-content mt-1">
-          <strong> UX 개선</strong>과 <strong> 협업에 적극</strong>적인
-          <strong> 프론트엔드 </strong> 개발자 조해성입니다.
-          <strong> 끝까지 해내는 집념을 가진 프론트엔드 </strong> 개발자
-          조해성입니다.
+          <!-- <strong> UX 개선</strong>과 <strong> 협업에 적극</strong>적인 -->
+          <!-- <strong> 프론트엔드 </strong> 개발자 조해성입니다. -->
+          <!-- <strong> 끝까지 해내는 집념을 가진 프론트엔드 </strong> 개발자
+          조해성입니다. -->
+          <!-- <strong>  인류발전에 프론트엔드 </strong> 개발자 -->
+          <!-- 조해성입니다. -->
           <!-- <br />
           <p style="font-size: 0.9rem">
             개발자는 인류가 직면한 문제를 해결 할 수 있다고 믿습니다.
@@ -57,9 +59,9 @@
       </div>
       <div class="col d-flex justify-content-center">
         <div class="image-box">
-          <img class="profile-image" src="@/assets/imoji1.png" alt="" />
-          <!-- <img class="profile-image" src="@/assets/motorcycleAndMe.jpg" alt="" /> -->
-          <!-- <img class="profile-image" src="@/assets/profileImage.jpg" alt="" /> -->
+          <img class="profile-image" src="@/assets/profile/imoji1.png" alt="" />
+          <!-- <img class="profile-image" src="@/assets/profile/motorcycleAndMe.jpg" alt="" /> -->
+          <!-- <img class="profile-image" src="@/assets/profile/profileImage.jpg" alt="" /> -->
         </div>
       </div>
     </div>

@@ -7,14 +7,13 @@
       <div class="pt-5">
         <div class="text-center col">
           <h5 class="fw-bold">Research</h5>
-          <div class="text-start mt-4 d-flex justify-content start">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
             <div class="col-8 me-5">
               <p class="mb-1 fs-5">
                 Lactate consumption mediates repeated high-intensity interval
-                exercise-enhanced executive function in adult males, 2020 Dec,
-                Phys Act Nutr.
+                exercise-enhanced executive function in adult males.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">2020 Dec, Phys Act Nutr.</p>
               <p class="my-0">
                 Hae-Sung Cho 1, Won Sang Lee 1, Kyeong Jin Yoon 1, Soo Hong Park
                 1, Hyung Eun Shin 2, Yeon-Soo Kim 1 3, Hyukki Chang 4, Hyo Youl
@@ -22,21 +21,19 @@
               </p>
             </div>
             <div>
-              <img
-                src="https://i1.rgstatic.net/publication/339664020_Neural_maturation_enhanced_by_exercise-induced_extracellular_derivatives/links/5fb67f30299bf104cf5b8178/largepreview.png"
-                alt=""
-                style="width: 200px"
-              />
+              <img src="@/assets/etc/lactate.png" alt="" style="width: 200px" />
             </div>
           </div>
-          <div class="text-start mt-4 d-flex justify-content start">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
             <div class="col-8 me-5">
               <p class="mb-1 fs-5">
                 Exercise-induced changes of gene expression in the cerebellum of
-                aged mice Biochemical and biophysical research communications,
-                Volume 521, Issue 4, 22 January 2020, Pages 952-956
+                aged mice.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">
+                Biochemical and biophysical research communications, Volume 521,
+                Issue 4, 22 January 2020, Pages 952-956.
+              </p>
               <p class="my-0">
                 Minchul Lee, Hae-Sung Cho, Kyeong Jin Yoon, WonSang Lee, Hyo
                 Youl Moon
@@ -44,38 +41,33 @@
             </div>
             <div>
               <img
-                src="https://i1.rgstatic.net/publication/339664020_Neural_maturation_enhanced_by_exercise-induced_extracellular_derivatives/links/5fb67f30299bf104cf5b8178/largepreview.png"
+                src="@/assets/etc/cerebellum.png"
                 alt=""
                 style="width: 200px"
               />
             </div>
           </div>
-          <div class="text-start mt-4 d-flex justify-content start">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
             <div class="col-8 me-5">
               <p class="mb-1 fs-5">
-                Exercise-induced Extracellular Vesicles’ Effect on Stress. April
-                2020, The FASEB Journal.
+                Exercise-induced Extracellular Vesicles’ Effect on Stress.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">April 2020, The FASEB Journal.</p>
               <p class="my-0">
                 Kyeong Jin Yoon, Hae-Sung Cho, WonSang Lee, HyoYoul Moon
               </p>
             </div>
             <div>
-              <img
-                src="https://i1.rgstatic.net/publication/339664020_Neural_maturation_enhanced_by_exercise-induced_extracellular_derivatives/links/5fb67f30299bf104cf5b8178/largepreview.png"
-                alt=""
-                style="width: 200px"
-              />
+              <img src="@/assets/etc/EV.png" alt="" style="width: 200px" />
             </div>
           </div>
-          <div class="text-start mt-4 d-flex justify-content start">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
             <div class="col-8 me-5">
               <p class="mb-1 fs-5">
                 Neural maturation enhanced by exercise-induced extracellular
-                derivatives March 2020, Scientific Reports
+                derivatives.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">March 2020, Scientific Reports.</p>
               <p class="my-0">
                 Hyo Youl Moon 1 2 3, Kyeong Jin Yoon 1, Won Sang Lee 1, Hae-Sung
                 Cho 1, Do-Yeon Kim 4, Ji-Seok Kim 5
@@ -89,15 +81,16 @@
               />
             </div>
           </div>
-          <div class="text-start mt-4 d-flex justify-content start">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
             <div class="col-8 me-5">
               <p class="mb-1 fs-5">
                 The Role of Dopamine Receptor D2 in Bridging the
-                Intention-Behavior Gap in Sport Participation, March 2021
-                International Journal of Environmental Research and Public
-                Health.
+                Intention-Behavior Gap in Sport Participation.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">
+                March 2021 International Journal of Environmental Research and
+                Public Health.
+              </p>
               <p class="my-0">
                 Seiyeong Park 1, Junhye Kwon 1, Chiyoung Ahn 1, Hae-Sung Cho 1,
                 Hyo Youl Moon 1, Chung Gun Lee 1
@@ -111,13 +104,13 @@
               />
             </div>
           </div>
-          <div class="text-start mt-4 d-flex justify-content start">
-            <div class="col-8 me-5">
+          <div class="text-start mt-4 d-flex justify-content start my-5">
+            <div class="col-8 me-5 mb-5">
               <p class="mb-1 fs-5">
                 Effects of treadmill exercise on the regulation of tight
-                junction proteins in aged mice, 2020 Nov, Exp Gerontol .
+                junction proteins in aged mice.
               </p>
-              <!-- <p class="fs-5 fw-bold my-0">운동생화학 석사</p> -->
+              <p class="my-0">2020 Nov, Exp Gerontol.</p>
               <p class="my-0">
                 Hyung Eun Shin 1, Seong Eun Kwak 1, Di Di Zhang 1, Jihyun Lee 1,
                 Kyeong Jin Yoon 1, Hae Sung Cho 1, Hyo Youl Moon 2, Wook Song 3
@@ -125,7 +118,7 @@
             </div>
             <div>
               <img
-                src="https://i1.rgstatic.net/publication/339664020_Neural_maturation_enhanced_by_exercise-induced_extracellular_derivatives/links/5fb67f30299bf104cf5b8178/largepreview.png"
+                src="@/assets/etc/tight_junction.png"
                 alt=""
                 style="width: 200px"
               />
@@ -138,6 +131,7 @@
   </div>
 </template>
 <script>
+// import { reactive } from "vue";
 export default {
   name: "ETC",
   setup() {
