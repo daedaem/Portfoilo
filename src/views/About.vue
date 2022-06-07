@@ -42,6 +42,10 @@
     <div class="my-5">
       <swiper
         class="swiper"
+        :modules="modules"
+        navigation
+        :pagination="{ clickable: true }"
+        :scrollbar="{ draggable: true }"
         :slides-per-view="2"
         :space-between="10"
         @swiper="onSwiper"
@@ -76,8 +80,14 @@ import ETC from "./ETC.vue";
 import Introduce from "./Introduce.vue";
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default {
   name: "About",
@@ -96,7 +106,12 @@ export default {
     const onSlideChange = () => {
       console.log("slide change");
     };
-    return { links, onSwiper, onSlideChange };
+    return {
+      links,
+      onSwiper,
+      onSlideChange,
+      modules: [Navigation, Pagination, Scrollbar, A11y],
+    };
   },
 };
 </script>
@@ -183,5 +198,21 @@ a {
 .accordion {
   max-width: 1000px;
   margin: auto;
+}
+.swiper-button-next {
+  color: rgba(255, 255, 255, 0.4);
+  &:hover {
+    color: white;
+  }
+}
+.swiper-button-prev {
+  color: rgba(255, 255, 255, 0.4);
+
+  &:hover {
+    color: white;
+  }
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: white;
 }
 </style>
