@@ -52,7 +52,7 @@
         @slideChange="onSlideChange"
       >
         <swiper-slide>
-          <img class="swiper-image" src="@/assets/profile/ssafyEnd1.png" alt=""
+          <img class="swiper-image" src="@/assets/profile/ssafyEnd.png" alt=""
         /></swiper-slide>
         <swiper-slide>
           <img class="swiper-image" src="@/assets/profile/sleeping.jpg" alt=""
